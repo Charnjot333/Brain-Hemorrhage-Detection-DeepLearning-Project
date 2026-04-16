@@ -9,7 +9,7 @@ The system uses a trained CNN model (EfficientNet-based) and provides real-time 
 🔗 [https://huggingface.co/spaces/Charanjot/Brain-Hemorrhage-Detector]
 ### Prediction Result
 ![Prediction](Images/ICH21.png)
-![Prediction](Images/Screenshot 2026-04-16 221507.png)
+![Prediction](Images/ich2.png)
 ---
 
 ##  Features
