@@ -1,34 +1,34 @@
-# 🧠 Brain Hemorrhage Detection System
+#  Brain Hemorrhage Detection System
 
 A deep learning–based web application that detects **intracranial hemorrhage (ICH)** from CT scan images (DICOM or PNG format).  
 The system uses a trained CNN model (EfficientNet-based) and provides real-time predictions with confidence scores.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 🔗 [https://huggingface.co/spaces/Charanjot/Brain-Hemorrhage-Detector]
-
+https://github.com/Charnjot333/Brain-Hemorrhage-Detection-DeepLearning-Project/blob/main/Screenshot%202026-04-16%20221417.png
 ---
 
-## 📌 Features
+##  Features
 
-- ✔ Supports **DICOM (.dcm)** and **PNG images**
-- ✔ Detects multiple hemorrhage types:
+- Supports **DICOM (.dcm)** and **PNG images**
+- Detects multiple hemorrhage types:
   - Epidural
   - Intraparenchymal
   - Intraventricular
   - Subarachnoid
   - Subdural
-- ✔ Shows **confidence scores for each class**
-- ✔ Provides final diagnosis:
+- Shows **confidence scores for each class**
+- Provides final diagnosis:
   - 🔴 Hemorrhage Detected
   - 🟢 No Hemorrhage Detected
-- ✔ Built-in **input validation layer** (rejects non-CT images)
-- ✔ User-friendly interface using **Gradio**
+- Built-in **input validation layer** (rejects non-CT images)
+- User-friendly interface using **Gradio**
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 - **Architecture:** EfficientNet (Transfer Learning)
 - **Framework:** TensorFlow / Keras
@@ -38,7 +38,7 @@ The system uses a trained CNN model (EfficientNet-based) and provides real-time 
 
 ---
 
-## ⚙️ Preprocessing Pipeline
+## Preprocessing Pipeline
 
 Medical images are processed using **windowing techniques**:
 
@@ -55,7 +55,7 @@ Resize → Model Input
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python  
 - TensorFlow / Keras  
